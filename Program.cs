@@ -13,17 +13,18 @@ Console.WriteLine(favouriteFoods.Length);
 
 
 //stampa degli elementi in ordine all'inerno dell'array
-Console.WriteLine(favouriteFoods);
+Console.WriteLine($"Elenco elementi:");
 for(int i=0; i< favouriteFoods.Length; i++)
 {
-    Console.WriteLine(favouriteFoods[i]);
+    Console.WriteLine($"Elemento dell'array: {favouriteFoods[i]}");
 }
 
 //stampa del primo elemento dell'array
-Console.WriteLine(favouriteFoods[0]);
+Console.WriteLine($" Il cibo preferito: {favouriteFoods[0]}");
 
 //Stampa dell'ultimo elemento dell'array
-Console.WriteLine(favouriteFoods[favouriteFoods.Length -1]);
+Console.WriteLine($" L'ultimo cibo/elemento dell'array: {favouriteFoods[favouriteFoods.Length - 1]}");
+
 
 //bonus
 
